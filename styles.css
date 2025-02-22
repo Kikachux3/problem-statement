@@ -1,0 +1,63 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and container setup */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+/* Main content section */
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content .subheading {
+    font-size: 20px;
+    font-style: italic;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Newspaper vibes */
+header, .content {
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Column-style layout for old-school vibe */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
